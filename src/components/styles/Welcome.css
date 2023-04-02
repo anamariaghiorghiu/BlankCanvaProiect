@@ -1,0 +1,170 @@
+
+.title{
+    flex:1;
+    font-size: 130px;
+    background: linear-gradient(to right, black 40% ,#FF7200 60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position: 50%;
+    padding-left: 30px;
+  
+  }
+  
+  .page-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  
+  .slogan {
+    flex:1;
+    font-size: 35px;
+    margin-top: 10px;
+    background: linear-gradient(to right, black 40% ,#FF7200 60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position: 50%;
+    padding-left: 30px;
+  }
+  
+  .blankcanva {
+    font-size: 40px;
+    background: linear-gradient(to right, black 40% ,#FF7200 60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  
+  .decoration {
+    flex: 1;
+    width: 650px;
+    height: 1000px;
+    margin-left: 50px;
+    visibility: visible;
+  }
+  
+  gradient{
+    font-size: 50px;
+    background: linear-gradient(to right, black 40% ,#FF7200 60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position: 50%;
+  }
+  
+  .buton-welcomepage {
+    background-color: #FF7200;
+    border-color: transparent;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    width: 250px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.3s;
+  }
+  
+  .buton-welcomepage:hover{
+    background-color: #ffffff;
+    border-color: #FF7200;
+    color: #FF7200;
+    transform: translateY(-10px);
+  }
+  
+  @media screen and (max-width:850px){
+    .decoration{
+      visibility: hidden;
+    }
+    .terms{
+      visibility: hidden;
+    }
+  }
+  
+  @media screen and (max-width:800px){
+    .title{
+      font-size: 90px;
+    }
+    .slogan{
+      font-size: 20px;
+    }
+    .blankcanva{
+      font-size: 25px;
+    }
+    .buton-welcomepage{
+      width: 200px;
+      height:60px;
+      font-size: 20px;
+    }
+    .terms{
+      visibility: hidden;
+    }
+  }
+  
+  .aboutUsTitle{
+    font-size: 70px;
+    padding-left: 20px;
+  }
+  
+  .aboutUsTitle > .blankcanva{
+    font-size: 70px;
+  }
+  
+  .aboutUsContent{
+    padding-top: 20px;
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  
+  .separator{
+    color: #FF7200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .right-column {
+    position: relative;
+  }
+  
+  .decoration {
+    position: relative;
+    z-index: 1;
+    height:1000px;
+  }
+  
+  .terms {
+    position: absolute;
+    left: 0;
+    z-index: 2;
+    height: 250px;
+    width: 170px;
+    margin-top: 200px;
+    animation: float 1s ease-in-out infinite;
+    visibility: visible;
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  
+  

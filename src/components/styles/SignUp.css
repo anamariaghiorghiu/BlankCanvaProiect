@@ -1,0 +1,139 @@
+.signup-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.decoration_{
+    width: 650px;
+    height: 890px;
+}
+section {
+    width: 100%;
+    max-width: 420px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem;
+    background-color: #f7e4d4;
+    border-radius:20px;
+    display: flex;
+}
+
+label{
+    color: #FF7200;
+}
+.blankcanva{
+    font-size: 65px;
+    background: linear-gradient(to right, black 40% ,#FF7200 60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding-bottom: 1rem;
+}
+
+a, a:visited {
+    color: #fff;
+}
+
+input[type="text"],
+input[type="password"],
+button,
+textarea {
+    font-family: 'Abril Fatface', sans-serif !important;
+    font-size: 22px;
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+    color: #FF7200;
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+
+label,
+button {
+
+  margin-top: 1rem;
+}
+
+button {
+  padding: 0.5rem;
+}
+
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #FF7200;
+    color: #fff;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+}
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+.errmsg {
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    color: #FF7200;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .line {
+    display: inline-block;
+    margin-left: 0.5rem;
+  }
+  
+  a {
+    color: #FF7200;
+    font-size: 20px;
+  }
+  
+  button[type="submit"] {
+    background-color: #fff;
+    color: #FF7200;
+    outline: none; /* remove default outline */
+}
+
+button[type="submit"]:hover {
+    background-color: #FF7200;
+    color: #fff;
+}
+
+button[type="submit"]:focus {
+    outline: 2px solid #FF7200;
+}
